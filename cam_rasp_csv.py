@@ -68,7 +68,7 @@ with open(csv_file_path, mode='w', newline='') as file:
 
         frame_count += 1
 
-        # Exit the program when q is pressed
+        # press "q" to exit
         if cv2.waitKey(1) == ord("q"):
             break
 
